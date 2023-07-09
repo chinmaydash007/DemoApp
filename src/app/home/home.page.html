@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Blank hello world
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,13 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Blank hello</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <p>Counter: {{counter}}</p>
+
+  <ion-button (click)="increaseCounter()">Click me</ion-button>
 
   <div id="container">
     <strong>Ready to create an app?</strong>

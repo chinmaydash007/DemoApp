@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  counter:number=0
+
   constructor() {}
+
+  descriptionText="This is random Description" 
+
+  increaseCounter(){
+    this.counter=this.counter+1
+  }
 
 }
